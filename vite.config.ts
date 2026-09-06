@@ -10,10 +10,5 @@ export default defineConfig({
   base: "/gleam-dental/",
   tanstackStart: {
     server: { entry: "server" },
-    prerender: {
-      enabled: true,
-      crawlLinks: true,
-      autoSubfolderIndex: true,
-    },
   },
 });
