@@ -72,8 +72,19 @@
 
 :root {
   --radius: 0.625rem;
+
+  /* Lumen Dental pastel glass palette */
+  --brand: oklch(0.706 0.121 262.4);
+  --brand-deep: oklch(0.633 0.139 265.2);
+  --mint: oklch(0.837 0.089 178.6);
+  --peach: oklch(0.831 0.083 5.9);
+  --lavender: oklch(0.733 0.117 296.5);
+  --ink: oklch(0.311 0.049 271.6);
+  --page-gradient: linear-gradient(150deg, #eaf1ff 0%, #f6efff 42%, #e6fdf6 100%);
+
   --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --foreground: var(--ink);
+
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
